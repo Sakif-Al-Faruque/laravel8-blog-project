@@ -14,7 +14,7 @@ class AddApprovedByColumnToEditorsTable extends Migration
     public function up()
     {
         Schema::table('editors', function (Blueprint $table) {
-            $table->unsignedBigInteger('approved_by');
+            $table->unsignedBigInteger('approved_by')->nullable();
             $table->foreign('approved_by')->references('master_id')->on('master');
         });
     }

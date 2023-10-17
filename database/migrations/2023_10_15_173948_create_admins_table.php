@@ -22,7 +22,7 @@ class CreateAdminsTable extends Migration
             $table->date('dob')->nullable();
             $table->enum('gender', ['M', 'F', 'O'])->nullable();
             $table->string('phone', 11)->nullable();
-            $table->enum('status', ['approved', 'rejected', 'pending']);
+            $table->enum('status', ['approved', 'rejected', 'pending'])->default('pending');
             $table->timestamps();
         });
     }

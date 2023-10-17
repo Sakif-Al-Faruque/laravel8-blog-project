@@ -14,7 +14,7 @@ class AddPhotoColumnToEditorsTable extends Migration
     public function up()
     {
         Schema::table('editors', function (Blueprint $table) {
-            $table->string('photo', 100)->after('password');
+            $table->string('photo', 100)->after('password')->nullable();
         });
     }
 

@@ -14,7 +14,7 @@ class AddApprovedByColumnToCommentsTable extends Migration
     public function up()
     {
         Schema::table('comments', function (Blueprint $table) {
-            $table->unsignedBigInteger('approved_by');
+            $table->unsignedBigInteger('approved_by')->nullable();
             $table->foreign('approved_by')->references('admin_id')->on('admins');
         });
     }

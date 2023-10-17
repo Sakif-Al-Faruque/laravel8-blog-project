@@ -20,7 +20,7 @@ class CreateBlogsTable extends Migration
             $table->date('date');
             $table->integer('likes')->default(0);
             $table->integer('views')->default(0);
-            $table->enum('status', ['approved', 'rejected', 'pending']);
+            $table->enum('status', ['approved', 'rejected', 'pending'])->default('pending');
             $table->timestamps();
         });
     }
