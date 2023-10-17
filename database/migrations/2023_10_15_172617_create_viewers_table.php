@@ -14,8 +14,8 @@ class CreateViewersTable extends Migration
     public function up()
     {
         Schema::create('viewers', function (Blueprint $table) {
-            $table->id('view_id');
-            $table->string('user_name', 100);
+            $table->id('viewer_id');
+            $table->string('viewer_name', 100);
             $table->timestamps();
         });
     }

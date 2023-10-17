@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateMasterTable extends Migration
+class AddBelongToCommentsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,9 @@ class CreateMasterTable extends Migration
      */
     public function up()
     {
-        Schema::create('master', function (Blueprint $table) {
-            $table->id('master_id');
-            $table->string('token', 100)->unique();
-            $table->timestamps();
+        Schema::table('comments', function (Blueprint $table) {
+            $table->unsignedBigInteger('belong_to');
+            $table->foreign('belong_to')->references('blog_id')->on('blogs');
         });
     }
 
@@ -27,6 +26,8 @@ class CreateMasterTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('master');
+        Schema::table('comments', function (Blueprint $table) {
+            $table->dropColumn('belong_to');
+        });
     }
 }

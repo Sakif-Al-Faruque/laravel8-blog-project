@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateMasterTable extends Migration
+class AddPhotoColumnToEditorsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,8 @@ class CreateMasterTable extends Migration
      */
     public function up()
     {
-        Schema::create('master', function (Blueprint $table) {
-            $table->id('master_id');
-            $table->string('token', 100)->unique();
-            $table->timestamps();
+        Schema::table('editors', function (Blueprint $table) {
+            $table->string('photo', 100)->after('password');
         });
     }
 
@@ -27,6 +25,8 @@ class CreateMasterTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('master');
+        Schema::table('editors', function (Blueprint $table) {
+            $table->dropColumn('photo'); 
+        });
     }
 }
