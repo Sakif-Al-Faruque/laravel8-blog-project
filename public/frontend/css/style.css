@@ -119,46 +119,46 @@ body{
 
 
 
-#top4 .blog-container{
+#top3 .blog-container{
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
 }
-#top4 .blog-container .blog-item{
+#top3 .blog-container .blog-item{
     border: 1px solid var(--green-hover);
     width: 30%;
     border-radius: 5px;
     overflow: hidden;
 }
-#top4 .blog-container .blog-item .blog-img-holder{
+#top3 .blog-container .blog-item .blog-img-holder{
     width: 100%;
     height: 200px;
     margin-bottom: 20px;
 }
 
-#top4 .blog-container .blog-item  .blog-text-content{
+#top3 .blog-container .blog-item  .blog-text-content{
     box-sizing: border-box;
     padding: 10px;
     padding-top: 0;
 }
 
-#top4 .blog-container .blog-item .blog-text-content .blog-title{
+#top3 .blog-container .blog-item .blog-text-content .blog-title{
     width: 100%;
     color: var(--green-hover);
     font-size: 1.5rem;
     text-align: left;
     margin-bottom: 10px;
 }
-#top4 .blog-container .blog-item .blog-text-content .blog-description{
+#top3 .blog-container .blog-item .blog-text-content .blog-description{
     width: 100%;
     color: var(--green-black);
     font-size: 1rem;
     text-align: justify;
     margin-bottom: 10px;
 }
-#top4 .blog-container .blog-item .blog-text-content a{
+#top3 .blog-container .blog-item .blog-text-content a{
     color: var(--green-hover);
     font-size: 1rem;
     display: inline-block;
@@ -169,12 +169,12 @@ body{
     margin-bottom: 10px;
 }
 
-#top4 .blog-container .blog-item .blog-text-content a:hover{
+#top3 .blog-container .blog-item .blog-text-content a:hover{
     color: var(--white);
     background-color: var(--green-hover);
     text-decoration: none;
 }
-#top4 .blog-container .blog-item .blog-text-content .blog-meta{
+#top3 .blog-container .blog-item .blog-text-content .blog-meta{
     font-size: 1rem;
 }
 
