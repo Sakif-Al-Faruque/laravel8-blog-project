@@ -41,6 +41,8 @@
             
         </section>
 
+
+
         <section id="top3" class="pb-5">
             <div class="container">
                 <div class="row">
@@ -96,6 +98,157 @@
                 </div>
             </div>
             
+
+        </section>
+
+
+
+
+
+
+        <section id="latest" class="pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title ">
+                            <h3>latest</h3>
+                            <img src="{{url('frontend/asset/logo/new.png')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="latest-blog-container">
+
+                            <div class="latest-blog-item">
+                                <div class="latest-blog-img-holder">
+                                    <img src="{{url('frontend/asset/blog-img/b-1.jpg')}}" alt="" height="100%" width="100%">
+                                    <div class="latest-blog-img-holder-inner-content">
+                                        <p><span><i style="color: #F0FAF7 !important;" class="fa-solid fa-eye"></i></span><span>00</span></p>
+                                        <p><span><i style="color: #F0FAF7 !important;" class="fa-solid fa-heart"></i></span><span>00</span></p>
+                                    </div>
+                                    
+                                </div>
+                                <a href="#" class="latest-blog-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+                            </div>
+
+                            
+                            <div class="latest-blog-item">
+                                <div class="latest-blog-img-holder">
+                                    <img src="{{url('frontend/asset/blog-img/b-1.jpg')}}" alt="" height="100%" width="100%">
+                                    <div class="latest-blog-img-holder-inner-content">
+                                        <p><span><i class="fa-solid fa-eye"></i></span><span>00</span></p>
+                                        <p><span><i class="fa-solid fa-heart"></i></span><span>00</span></p>
+                                    </div>
+                                    
+                                </div>
+                                <a href="#" class="latest-blog-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+                            </div>
+
+
+                            <div class="latest-blog-item">
+                                <div class="latest-blog-img-holder">
+                                    <img src="{{url('frontend/asset/blog-img/b-1.jpg')}}" alt="" height="100%" width="100%">
+                                    <div class="latest-blog-img-holder-inner-content">
+                                        <p><span><i class="fa-solid fa-eye"></i></span><span>00</span></p>
+                                        <p><span><i class="fa-solid fa-heart"></i></span><span>00</span></p>
+                                    </div>
+                                    
+                                </div>
+                                <a href="#" class="latest-blog-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+                            </div>
+
+
+                            <div class="latest-blog-item">
+                                <div class="latest-blog-img-holder">
+                                    <img src="{{url('frontend/asset/blog-img/b-1.jpg')}}" alt="" height="100%" width="100%">
+                                    <div class="latest-blog-img-holder-inner-content">
+                                        <p><span><i class="fa-solid fa-eye"></i></span><span>00</span></p>
+                                        <p><span><i class="fa-solid fa-heart"></i></span><span>00</span></p>
+                                    </div>
+                                    
+                                </div>
+                                <a href="#" class="latest-blog-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+                            </div>
+
+
+                            <div class="latest-blog-item">
+                                <div class="latest-blog-img-holder">
+                                    <img src="{{url('frontend/asset/blog-img/b-1.jpg')}}" alt="" height="100%" width="100%">
+                                    <div class="latest-blog-img-holder-inner-content">
+                                        <p><span><i class="fa-solid fa-eye"></i></span><span>00</span></p>
+                                        <p><span><i class="fa-solid fa-heart"></i></span><span>00</span></p>
+                                    </div>
+                                    
+                                </div>
+                                <a href="#" class="latest-blog-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+                            </div>
+
+
+                            <div class="latest-blog-item">
+                                <div class="latest-blog-img-holder">
+                                    <img src="{{url('frontend/asset/blog-img/b-1.jpg')}}" alt="" height="100%" width="100%">
+                                    <div class="latest-blog-img-holder-inner-content">
+                                        <p><span><i class="fa-solid fa-eye"></i></span><span>00</span></p>
+                                        <p><span><i class="fa-solid fa-heart"></i></span><span>00</span></p>
+                                    </div>
+                                    
+                                </div>
+                                <a href="#" class="latest-blog-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <section id="blog-counter" class="py-5 mb-5">
+            <div class="blog-counter-item text-center">
+                <h3>authors</h3>
+                <img src="{{url('frontend/asset/logo/writer.png')}}" alt="" height="100px" width="100px">
+                <h4 class="mt-3" id="num1">60</h4>
+            </div>
+            <div class="blog-counter-item text-center">
+                <h3>blogs</h3>
+                <img src="{{url('frontend/asset/logo/blog.png')}}" alt="" height="100px" width="100px">
+                <h4 class="mt-3" id="num2">100</h4>
+            </div>
+            <div class="blog-counter-item text-center">
+                <h3>viewers</h3>
+                <img src="{{url('frontend/asset/logo/user.png')}}" alt="" height="100px" width="100px">
+                <h4 class="mt-3" id="num3">150</h4>
+            </div>
+        </section>
+
+
+
+
+        <section id="testimonials" class="pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title ">
+                            <h3>testimonials</h3>
+                            <img src="{{url('frontend/asset/logo/review.png')}}" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="testimonial-container">
+                            <div class="testimonial-profile">
+                                <img src="{{url('frontend/asset/testimonials/t1.jpg')}}" alt="" height="100%" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
 
         </section>
     </main>
