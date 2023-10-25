@@ -281,6 +281,107 @@ a.latest-blog-title:hover{
 
 
 
+/* about us page content start */
+
+.founder-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.founder-content{
+    width: 70%;
+    height: 600px;
+    box-sizing: border-box;
+    padding-right: 100px;
+}
+
+.founder-content > h1{
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.founder-content > h3{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.founder-content > p{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.founder-photo-holder{
+    width: 30%;
+    height: 600px;
+}
+
+
+.author-card{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px solid var(--green-hover);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.author-img-holder{
+    width: 25%;
+    height: 100%
+}
+.author-details{
+    width: 75%;
+    box-sizing: border-box;
+    padding: 5px 5px 5px 25px;
+
+}
+
+.author-details > h3{
+    font-size: 2rem;
+}
+
+.author-details > p{
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* about us page content end */
+
+
+
+
+
+
+
 
 footer{
     background-color: var(--green-light);
