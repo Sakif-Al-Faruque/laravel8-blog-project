@@ -399,7 +399,8 @@ a.latest-blog-title:hover{
     width: 100%;
     background-color: var(--green-light);
     text-align: right;
-    padding: 10px 0px 10px 15px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
 }
 .blog_search_field{
     width: 75%;
@@ -408,6 +409,7 @@ a.latest-blog-title:hover{
     outline: none;
     font-size: 1rem;
     margin-right: 0;
+    background-color: transparent;
 }
 .blog_search_button{
     width: 23%;
@@ -418,6 +420,7 @@ a.latest-blog-title:hover{
     color: var(--white);
     text-transform: capitalize;
     font-size: 1rem;
+    border-radius: 15px;
 }
 
 

@@ -19,15 +19,15 @@ use App\Models\Category;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('root');
 
 Route::get('/about', function(){
     return view('about');
-});
+})->name('blog.about');
 
 Route::get('/collection', function(){
     return view('collection');
-});
+})->name('blog.collection');
 
 //CRUD Test
 
