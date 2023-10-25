@@ -68,4 +68,4 @@
             
         </section>
     </main>
-@endsection()
+@endsection

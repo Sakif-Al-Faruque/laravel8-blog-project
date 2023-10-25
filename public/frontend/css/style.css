@@ -281,6 +281,17 @@ a.latest-blog-title:hover{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* about us page content start */
 
 .founder-container{
@@ -375,6 +386,58 @@ a.latest-blog-title:hover{
 
 
 /* about us page content end */
+
+
+
+
+
+
+
+/* collection content starts */
+
+.blog_search_form{
+    width: 100%;
+    background-color: var(--green-light);
+    text-align: right;
+    padding: 10px 0px 10px 15px;
+}
+.blog_search_field{
+    width: 75%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin-right: 0;
+}
+.blog_search_button{
+    width: 23%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: var(--green-hover);
+    color: var(--white);
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+/* collection content ends */
+
+
+
+
+
+
+
+
+
+
 
 
 
