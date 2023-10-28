@@ -29,6 +29,11 @@ Route::get('/collection', function(){
     return view('collection');
 })->name('blog.collection');
 
+
+Route::get('/editor/dashboard', function(){
+    return view('editor.editor');
+});
+
 //CRUD Test
 
 //Blog -
