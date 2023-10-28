@@ -13,17 +13,128 @@
                 </div>
             </div>
 
-
-            <div class="row">
-                <div class="col-lg-12 py-2">
-                    <div class="collection-container">
-                        <div class="collection-item">p</div>
-                        <div class="collection-item">p</div>
-                        <div class="collection-item">p</div>
-                        <div class="collection-item">p</div>
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <div class="cat-container py-3">
+                        <span><a href="#">national</a></span>
+                        <span><a href="#">national</a></span>
+                        <span><a href="#">national</a></span>
+                        <span><a href="#">national</a></span>
+                        <span><a href="#">national</a></span>
+                        <span><a href="#">national</a></span>
+                        <span><a href="#">national</a></span>
+                        <span><a href="#">national</a></span>
+                        <span><a href="#">national</a></span>
+                        <span><a href="#">national</a></span>
+                        <span><a href="#">national</a></span>
+                        <span><a href="#">national</a></span>
+                        <span><a href="#">national</a></span>
+                        <span><a href="#">national</a></span>
+                        <span><a href="#">national</a></span>
+                        <span><a href="#">national</a></span>
+                        <span><a href="#">national</a></span>
+                        <span><a href="#">national</a></span>
+                        <span><a href="#">national</a></span>
+                        <span><a href="#">national</a></span>
                     </div>
                 </div>
             </div>
+
+            <div class="row mb-5">
+                <div class="col-lg-12 py-2">
+                    <div class="collection-content py-5">
+                        <div class="collection-container">
+                            <div class="collection-item">
+                                <div class="img-holder">
+                                    <img src="{{url('frontend/asset/blog-img/b-1.jpg')}}" alt="blog image" height="100%" width="100%">
+                                </div>
+                                <p class="title">Lorem ipsum dolor sit amet Lorem, ipsum ipsum ipsum ipsum.... <a href="#">Read More</a></p>
+                            </div>
+
+
+                            <div class="collection-item">
+                                <div class="img-holder">
+                                    <img src="{{url('frontend/asset/blog-img/b-1.jpg')}}" alt="blog image" height="100%" width="100%">
+                                </div>
+                                <p class="title">Lorem ipsum dolor sit amet Lorem, ipsum ipsum ipsum ipsum.... <a href="#">Read More</a></p>
+                            </div>
+
+                            <div class="collection-item">
+                                <div class="img-holder">
+                                    <img src="{{url('frontend/asset/blog-img/b-1.jpg')}}" alt="blog image" height="100%" width="100%">
+                                </div>
+                                <p class="title">Lorem ipsum dolor sit amet Lorem, ipsum ipsum ipsum ipsum.... <a href="#">Read More</a></p>
+                            </div>
+
+
+                            <div class="collection-item">
+                                <div class="img-holder">
+                                    <img src="{{url('frontend/asset/blog-img/b-1.jpg')}}" alt="blog image" height="100%" width="100%">
+                                </div>
+                                <p class="title">Lorem ipsum dolor sit amet Lorem, ipsum ipsum ipsum ipsum.... <a href="#">Read More</a></p>
+                            </div>
+
+                            <div class="collection-item">
+                                <div class="img-holder">
+                                    <img src="{{url('frontend/asset/blog-img/b-1.jpg')}}" alt="blog image" height="100%" width="100%">
+                                </div>
+                                <p class="title">Lorem ipsum dolor sit amet Lorem, ipsum ipsum ipsum ipsum.... <a href="#">Read More</a></p>
+                            </div>
+
+                            <div class="collection-item">
+                                <div class="img-holder">
+                                    <img src="{{url('frontend/asset/blog-img/b-1.jpg')}}" alt="blog image" height="100%" width="100%">
+                                </div>
+                                <p class="title">Lorem ipsum dolor sit amet Lorem, ipsum ipsum ipsum ipsum.... <a href="#">Read More</a></p>
+                            </div>
+
+
+                            <div class="collection-item">
+                                <div class="img-holder">
+                                    <img src="{{url('frontend/asset/blog-img/b-1.jpg')}}" alt="blog image" height="100%" width="100%">
+                                </div>
+                                <p class="title">Lorem ipsum dolor sit amet Lorem, ipsum ipsum ipsum ipsum.... <a href="#">Read More</a></p>
+                            </div>
+
+
+                            <div class="collection-item">
+                                <div class="img-holder">
+                                    <img src="{{url('frontend/asset/blog-img/b-1.jpg')}}" alt="blog image" height="100%" width="100%">
+                                </div>
+                                <p class="title">Lorem ipsum dolor sit amet Lorem, ipsum ipsum ipsum ipsum.... <a href="#">Read More</a></p>
+                            </div>
+
+
+                            <div class="collection-item">
+                                <div class="img-holder">
+                                    <img src="{{url('frontend/asset/blog-img/b-1.jpg')}}" alt="blog image" height="100%" width="100%">
+                                </div>
+                                <p class="title">Lorem ipsum dolor sit amet Lorem, ipsum ipsum ipsum ipsum.... <a href="#">Read More</a></p>
+                            </div>
+
+
+                            <div class="collection-item">
+                                <div class="img-holder">
+                                    <img src="{{url('frontend/asset/blog-img/b-1.jpg')}}" alt="blog image" height="100%" width="100%">
+                                </div>
+                                <p class="title">Lorem ipsum dolor sit amet Lorem, ipsum ipsum ipsum ipsum.... <a href="#">Read More</a></p>
+                            </div>
+
+
+                            <div class="collection-item">
+                                <div class="img-holder">
+                                    <img src="{{url('frontend/asset/blog-img/b-1.jpg')}}" alt="blog image" height="100%" width="100%">
+                                </div>
+                                <p class="title">Lorem ipsum dolor sit amet Lorem, ipsum ipsum ipsum ipsum.... <a href="#">Read More</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+
         </div>        
     </section>
 @endsection
