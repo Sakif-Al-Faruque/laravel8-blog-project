@@ -32,7 +32,16 @@ Route::get('/collection', function(){
 
 Route::get('/editor/dashboard', function(){
     return view('editor.editor');
-});
+})->name('editor.dashboard');
+
+Route::get('/editor/blog/add', function(){
+    return view('editor.manage-blog');
+})->name('blog.add');
+
+
+Route::get('/editor/blog/all', function(){
+    return view('editor.all-blog');
+})->name('blog.all');
 
 //CRUD Test
 
