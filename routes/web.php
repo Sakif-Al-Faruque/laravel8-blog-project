@@ -17,6 +17,10 @@ use App\Models\Category;
 |
 */
 
+
+
+
+//viewer
 Route::get('/', function () {
     return view('home');
 })->name('root');
@@ -30,18 +34,74 @@ Route::get('/collection', function(){
 })->name('blog.collection');
 
 
+
+
+
+
+
+
+
+
+
+/* editor */
 Route::get('/editor/dashboard', function(){
     return view('editor.editor');
 })->name('editor.dashboard');
 
 Route::get('/editor/blog/add', function(){
     return view('editor.manage-blog');
-})->name('blog.add');
+})->name('editor.blog.add');
 
 
 Route::get('/editor/blog/all', function(){
     return view('editor.all-blog');
-})->name('blog.all');
+})->name('editor.blog.all');
+
+Route::get('/editor/blog/view/{id}', function($id){
+    return view('editor.blog-view');
+})->name('editor.blog.view');
+
+Route::get('/editor/blog/trash', function(){
+    return view('editor.trash-blog');
+})->name('editor.blog.trash');
+
+
+
+
+
+
+
+//auth
+Route::get('/editor/registration', function(){
+    
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //CRUD Test
 

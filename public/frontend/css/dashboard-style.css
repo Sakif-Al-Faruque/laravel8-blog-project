@@ -1,3 +1,6 @@
+
+
+
 :root{
     --green-deep: #38A883;
     --green-white: #F0FAF7;
@@ -212,3 +215,28 @@ nav > ul > li > a{
     margin-bottom: 10px;
     font-size: 1.3rem;
 }
+
+.manage-blog-form-title{
+    padding: 20px 0;
+    background-color: var(--green-deep);
+    color: var(--white);
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+.thead-deep-green{
+    background-color: var(--green-deep) !important;
+    color: var(--white);
+}
+/* .table-striped{
+    background-color: var(--green-light) !important;
+} */
+
