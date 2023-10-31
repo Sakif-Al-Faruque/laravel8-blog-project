@@ -72,13 +72,13 @@ Route::get('/editor/blog/trash', function(){
 
 
 //auth
-Route::get('/editor/registration', function(){
-    
-});
+Route::get('/editor/auth/signup', function(){
+    return view('editor.auth.registration');
+})->name('editor.auth.reg');
 
 Route::get('/editor/auth/signin', function(){
     return view('editor.auth.login');
-});
+})->name('editor.auth.log');
 
 
 
