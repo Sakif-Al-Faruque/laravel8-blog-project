@@ -76,6 +76,10 @@ Route::get('/editor/registration', function(){
     
 });
 
+Route::get('/editor/auth/signin', function(){
+    return view('editor.auth.login');
+});
+
 
 
 
