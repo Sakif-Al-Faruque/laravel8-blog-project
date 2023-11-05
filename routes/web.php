@@ -67,6 +67,30 @@ Route::get('/editor/blog/trash', function(){
 
 
 
+/* editor */
+Route::get('/admin/dashboard', function(){
+    return view('admin.admin');
+})->name('admin.dashboard');
+
+Route::get('/admin/blog/add', function(){
+    return view('admin.manage-blog');
+})->name('admin.blog.add');
+
+
+Route::get('/admin/blog/all', function(){
+    return view('admin.all-blog');
+})->name('admin.blog.all');
+
+Route::get('/admin/blog/view/{id}', function($id){
+    return view('admin.blog-view');
+})->name('admin.blog.view');
+
+Route::get('/admin/blog/trash', function(){
+    return view('admin.trash-blog');
+})->name('admin.blog.trash');
+
+
+
 
 
 

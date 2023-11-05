@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Editor Dashboard</title>
+    <title>Editor - Sign In</title>
 
 
 
@@ -14,20 +14,8 @@
     
     <link rel="stylesheet" href="{{url('frontend/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{url('frontend/css/all.min.css')}}">
-    <link rel="stylesheet" href="{{url('frontend/css/dashboard-style.css')}}">
+    <link rel="stylesheet" href="{{url('frontend/css/auth-style.css')}}">
+
+    
 </head>
 <body>
-    <header class="py-2">
-        <div class="header-container">
-            <div class="dashboard-icon">
-                <span>blog.</span>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">other</a></li>
-                    <li><a href="#">profile</a></li>
-                    <li><a href="#">logout</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
