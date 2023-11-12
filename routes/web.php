@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 use App\Models\Blog;
 use App\Models\Editor;
 use App\Models\Category;
+use App\Http\Controllers\BlogController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -29,9 +31,7 @@ Route::get('/about', function(){
     return view('about');
 })->name('blog.about');
 
-Route::get('/collection', function(){
-    return view('collection');
-})->name('blog.collection');
+Route::get('/collection', [BlogController::class, 'getBlogs'])->name('blog.collection');
 
 
 
