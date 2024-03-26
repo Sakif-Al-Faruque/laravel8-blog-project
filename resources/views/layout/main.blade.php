@@ -20,6 +20,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{route('blog.collection')}}">collections</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('editor.auth.log')}}">Login</a>
+                                </li>
                             </ul>
                         </div>
                     </nav>
